@@ -6,14 +6,15 @@ y = 5
 name = "Abel"
 father_name = "Gideon"
 
-
 # This is a boolean variable
 is_student = True
+
+age = 19
 
 # Perform an addition between the two variables and display the output to the terminal
 # Output: 9
 print(x + y)
 
-# Combine the two string literal and add a space in between 
-# Output: Abel Gideon
-print(name + " " + father_name)
+# Convert the integarate 'age' into a string and then combine multiple strings into one
+# Output: Abel Gideon 19 years hold
+print(name + " " + father_name + " " + str(age) + " years old")
