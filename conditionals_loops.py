@@ -1,8 +1,7 @@
-age = 19
+num = 0
 
-# Test the age if it is greater than 20, in this case it is not (or False)
-if age > 20:
-    print("You are older than 20")
-# The else condition is for any condition that is not met after testing the 'if' or 'elif' if there are multiple conditions.
-else:
-    print("You are younger than 20")
+# Test the 'num' using the 'while loop' and the 'while loop' will run as long as the condition (num < 10) is True.
+# 'num' will increase by 1 each iteration and eventually will stop when 'num' reaches 10.
+while num < 10:
+    print(num)
+    num = num + 1
