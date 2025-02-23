@@ -7,3 +7,6 @@ name = "Abel"
 
 # This is a boolean variable
 is_student = True
+
+# Perform an addition between the two variables and display the output to the terminal
+print(x + y)
