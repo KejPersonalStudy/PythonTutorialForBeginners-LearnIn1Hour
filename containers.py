@@ -8,3 +8,10 @@ print(name)
 print(numbers)
 print(combo)
 print(name + combo)
+
+# Using For Loop. Print and iterate to each item in the combo list
+for item in combo:
+    print(item)
+
+# Accessing a specific item on the 'numbers' list using index.
+print (numbers[1])
