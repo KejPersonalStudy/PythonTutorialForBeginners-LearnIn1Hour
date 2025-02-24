@@ -1,12 +1,12 @@
 # Some basic comments for the file
 # a - append r - read w - write
 
-# Open "Hello.txt" in write ("w") mode. If the file doesn't exist, Python will create one. If it exist, it will be overwritten.
-# For now, the file will be at the root.
-file = open("Hello.txt", "w")
+# Open "Hello.txt" in read ("r") mode.
+file = open("Hello.txt", "r")
 
-# Write Hello World on the text file
-file.write("Hello World")
+# Read all the items in the text file per line and then display it
+numbers = file.readlines()
+print(numbers)
 
 # Close the file
 file.close()
