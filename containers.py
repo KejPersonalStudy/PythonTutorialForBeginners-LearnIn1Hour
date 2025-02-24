@@ -11,7 +11,11 @@ alphaNum = {
     "Three": 3
 }
 
+# This will replace '1' with 'A' (the first part of the list)
+# The 'numbers' list will now became a combination of strings and integers
+numbers[0] = "A"
+print(numbers)
+
 # By defauly, using a 'for' loop on a dictionary will iterate or loop through the keys.
 for items in alphaNum:
     print(items)
-
